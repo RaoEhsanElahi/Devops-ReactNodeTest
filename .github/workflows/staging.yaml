@@ -31,7 +31,7 @@ jobs:
       # installing dependencies
       - name: Install dependencies
         run:  |
-          cd React_App
+          cd App
           npm install
 
       # checking for build errors
