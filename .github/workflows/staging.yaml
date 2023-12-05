@@ -37,19 +37,19 @@ jobs:
       # checking for build errors
       - name: Building Project
         run: |
-          cd React_App
+          cd App
           npm run build-react
 
       # running unit tests on the application
       - name: Testing The Project
         run: |
-          cd React_App
+          cd App
           npm run test-react
 
       # performing linting in the applcation
       - name: Linting In The Project
         run: |
-          cd React_App
+          cd App
           npx eslint src/sum.js src/cartview.js src/shippingOptions.js
 
       # Deploy All Changes To The Staging Server
