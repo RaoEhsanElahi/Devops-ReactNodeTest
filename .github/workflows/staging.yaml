@@ -85,8 +85,8 @@ jobs:
           server_port: 465
           secure: true
           subject: Github Action Sucess
-          to: ehsanelahi92@hotmail.com
-          from: ehsanelahi92@hotmail.com
+          to: raoehsan7755@gmail.com
+          from: raoehsan7755@gmail.com
           body: Workflow of ${{github.repository}} initiated by ${{github.actor}} was sucessfully executed. View the changes on the server http://3.91.40.14/
 
       # notifying the QA and the Developer on workflow sucess.
